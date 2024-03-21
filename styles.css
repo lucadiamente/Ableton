@@ -137,3 +137,14 @@ body {
     line-height: 2.5rem;
     font-size: 1.05em;
 }
+
+.we-make__link {
+    color: #0000ff;
+}
+
+.we-make__passage {
+    margin-top: 1rem;
+    line-height: 1.9rem;
+    font-weight: 450;
+    font-size: 1.03em;
+}
