@@ -13,6 +13,12 @@ img {
     width: 100%;
 }
 
+p,
+h1, 
+h2 {
+    font-family: inherit;
+}
+
 /* VARIABLES */
 
 
@@ -77,16 +83,23 @@ html {
     color: #0000ff;
     font-size: 1.1rem;
     font-weight: 500;
-    letter-spacing: 0.5px;
 }
 
-.main-img {
+/* HEADER */
+
+.head-img {
     margin: 4.5rem auto;
     width: 83vw;
-    height: 90vh;
+    height: 85vh;
     background-image: url("producer.jpg");
     background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-/* SVG LOGO */
-
+.ableton-title {
+    color: #ff764d;
+    font-size: 8rem;
+    letter-spacing: -3px;
+}
