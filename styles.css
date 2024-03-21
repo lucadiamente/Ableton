@@ -22,12 +22,17 @@ h2 {
 /* VARIABLES */
 
 
-/* GENERAL */
+/* GENERAL STYLES */
 
 html {
+    background-color: #f6f6f6;
     color: #333;
     font-size: 1rem;
     font-family: "PT+Sans", Avenir, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+body {
+    background-color: #fff;
 }
 
 /* NAVIGATION */
@@ -87,8 +92,28 @@ html {
 
 /* HEADER */
 
+.second-bar {
+    width: 100%;
+    height: 4rem;
+    display: flex;
+    justify-content: flex-start;
+    gap: 1.8rem;
+    padding: 1.5rem 2.5rem;
+}
+
+.second-bar__link {
+    text-decoration: none;
+    font-size: 0.9em;
+    color: #333;
+    font-weight: 700;
+}
+
+.second-bar__link:first-child {
+    color: #ff764d;
+}
+
 .head-img {
-    margin: 4.5rem auto;
+    margin: 0 auto;
     width: 83vw;
     height: 85vh;
     background-image: url("producer.jpg");
@@ -102,4 +127,13 @@ html {
     color: #ff764d;
     font-size: 8rem;
     letter-spacing: -3px;
+}
+
+/* BODY */
+
+.we-make {
+    margin-top: 7rem;
+    padding: 0 25%;
+    line-height: 2.5rem;
+    font-size: 1.05em;
 }
