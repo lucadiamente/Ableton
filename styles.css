@@ -131,18 +131,18 @@ body {
 
 /* BODY */
 
-.we-make {
+.passage-1 {
     margin-top: 7rem;
     padding: 0 25%;
     line-height: 2.5rem;
     font-size: 1.05em;
 }
 
-.we-make__link {
+.passage-1__link {
     color: #0000ff;
 }
 
-.we-make__passage {
+.passage-1 p {
     margin-top: 1rem;
     line-height: 1.9rem;
     font-weight: 450;
@@ -170,5 +170,19 @@ body {
     object-fit: contain;
     width: 30rem;
     height: 20rem;
-    box-shadow: 9rem 130px 0px 24rem #fbffa7;
+    box-shadow: 1.5rem 0rem 0px 16rem #fbffa7;
+}
+
+.passage-2 {
+    margin-top: 7rem;
+    padding: 0 25%;
+    line-height: 2.5rem;
+    font-size: 1.05em;
+}
+
+.passage-2 p {
+    margin-top: 1rem;
+    line-height: 1.9rem;
+    font-weight: 450;
+    font-size: 1.03em;
 }
