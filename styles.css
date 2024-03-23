@@ -186,3 +186,71 @@ body {
     font-weight: 450;
     font-size: 1.03em;
 }
+
+.video-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 7rem;
+}
+
+.video {
+    aspect-ratio: 16 / 9;
+    width: 45rem;;
+}
+
+.passage-3 {
+    margin-top: 7rem;
+    padding: 0 25%;
+    line-height: 2.5rem;
+    font-size: 1.05em;
+}
+
+.passage-3 p {
+    margin-top: 1rem;
+    line-height: 1.9rem;
+    font-weight: 450;
+    font-size: 1.03em;
+}
+
+.pictures-2 {
+    margin-top: 7rem;
+    position: relative;
+}
+
+.pictures-2-left {
+    height: 134.5vh;
+    width: 58.3vw;
+    background-color: #b6ffc0;
+    position: relative;
+}
+
+.left-image-1 {
+    position: absolute;
+    top: 7.7rem;
+    left: 120px;
+    object-fit: cover;
+    width: 30rem;
+    height: 22.5rem;
+}
+
+.left-image-2 {
+    position: absolute;
+    top: 37.5rem;
+    left: 120px;;
+    object-fit: cover;
+    width: 30rem;
+    height: 22.5rem;
+}
+
+.pictures-2-right {
+    position: absolute;
+    top: 15rem;
+    left: 45rem;
+}
+
+.right-image {
+    object-fit: cover;
+    width: 35rem;
+    height: 38rem;
+}
