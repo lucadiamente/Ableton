@@ -21,6 +21,9 @@ h2 {
 
 /* VARIABLES */
 
+:root {
+    --TOP-MARGIN: 8rem;
+}
 
 /* GENERAL STYLES */
 
@@ -132,7 +135,7 @@ body {
 /* BODY */
 
 .passage {
-    margin-top: 8rem;
+    margin-top: var(--TOP-MARGIN);
     padding: 0 25%;
     line-height: 2.5rem;
     font-size: 1.05em;
@@ -151,7 +154,7 @@ body {
 
 .pictures-1 {
     height: 100vh;
-    margin-top: 8rem;
+    margin-top: var(--TOP-MARGIN);
     display: flex;
     flex-flow: row nowrap;
     justify-content: space-evenly;
@@ -177,7 +180,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 7rem;
+    margin-top:var(--TOP-MARGIN);
 }
 
 .video {
@@ -186,7 +189,7 @@ body {
 }
 
 .pictures-2 {
-    margin-top: 7rem;
+    margin-top:var(--TOP-MARGIN);
     position: relative;
 }
 
@@ -228,7 +231,7 @@ body {
 }
 
 .big-picture-container {
-    margin-top: 7rem;
+    margin-top:var(--TOP-MARGIN);
     width: 100vw;
     height: 83vh;
     display: flex;
@@ -242,7 +245,7 @@ body {
 }
 
 .pictures-3 {
-    margin-top: 7rem;
+    margin-top:var(--TOP-MARGIN);
     width: 100vw;
     height: 102vh;
     position: relative;
@@ -271,4 +274,40 @@ body {
     position: absolute;
     top: 8.5rem;
     right: 0;
+}
+
+.card-container {
+    height: 100vh;
+    width: 100vw;
+    margin-top: 2rem;
+    padding: 7rem;
+}
+
+.card-container img {
+    object-fit: cover;
+    width: 35rem;
+    height: 37rem;
+}
+
+.card {
+    background-color: #b1c5ff;
+    width: 75rem;
+    height: 37rem;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+}
+
+.passage-container {
+    padding: 8.5rem;
+}
+
+.passage-container h2 {
+    line-height: 2.7rem;
+    margin-bottom: 1.5rem;
+}
+
+.passage-container h2,
+.passage-contianer a {
+    font-size: 1.7em;
 }
