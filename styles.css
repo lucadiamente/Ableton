@@ -85,6 +85,10 @@ body {
 
 .more {
     color: #ff764d;
+    border: none;
+    background-color: #fff;
+    font-size: 1.2em;
+    cursor: pointer;
 }
 
 .free {
@@ -310,4 +314,11 @@ body {
 .passage-container h2,
 .passage-contianer a {
     font-size: 1.7em;
+}
+
+/* FOOTER */
+
+.footer {
+    border-top: 1px solid gray;
+    padding: 8rem 7rem;
 }
