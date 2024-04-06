@@ -319,6 +319,107 @@ body {
 /* FOOTER */
 
 .footer {
-    border-top: 1px solid gray;
-    padding: 8rem 7rem;
+    border-top: 2px solid rgb(240, 240, 240);
+}
+
+.footer__container {
+    padding: 3rem 7.5rem;
+    height: 96.5vh;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-evenly;
+}
+
+.row-1 h2 {
+    font-size: 3.5em;
+}
+
+.row-2,
+.row-3 {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    font-size: 1.1em;
+    font-weight: 450;
+}
+
+.row-2 a,
+.row-3 a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.row-2 .col,
+.row-3 .col {
+    display: flex;
+    flex-flow: column wrap;
+}
+
+.row-2 a,
+.row-2 .col:last-child,
+.row-3 a,
+.row-3 {
+    line-height: 2rem;
+}
+
+.row-2 .col:last-child {
+    width: 30rem;
+}
+
+.row-2 .signup {
+    margin-top: 10px;
+    width: 31rem;
+    display: flex;
+}
+
+.row-2 button {
+    width: 7.3rem;
+    height: 2.5rem;
+    margin: 0;
+    border: none;
+    background-color: #0000ff;
+    color: #fff;
+    font-size: 1.000005em;
+    padding: 3px;
+}
+
+.row-2 input {
+    width: 23rem;
+    height: 2.5rem;
+    margin: 0;
+    padding: 10px;
+    font-size: 16px;
+    font-weight: lighter;
+    border: none;
+    background-color: #f3f3f3;
+}
+
+.row-4 {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+}
+
+.selector-container {
+    width: 15rem;
+    display: flex; 
+    padding: 10px 0;
+    justify-content: space-between;
+}
+
+.selector-container select {
+    border: none;
+    background-color: #f3f3f3;
+    width: 7rem;
+    height: 2rem;
+}
+
+.selector-container select #location {
+    width: 30rem;
+}
+
+.row-4 a {
+    text-decoration: none;
+    color: #333;
+    font-weight: 400;
 }
